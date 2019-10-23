@@ -3,6 +3,7 @@ $cell: 100px;
 $week-days: ("mon", "tue", "wed", "thu", "fri", "sat", "sun");
 
 body {
+  margin: 20px;
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
@@ -11,7 +12,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: ($cell + 1px) * 7;
-  margin: 150px auto;
+  margin: auto;
 
   div {
     display: flex;
